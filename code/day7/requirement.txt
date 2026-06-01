@@ -1,0 +1,8 @@
+install
+fastapi
+uvicorn
+requests
+install ollamma
+ then run 2 commands
+ ollamma pull gemma3:1b
+ ollamma run gemma3:1b
