@@ -1,0 +1,16 @@
+/* Simple styles for the todo app */
+html,body{height:100%;margin:0;font-family:Segoe UI,Roboto,Arial,sans-serif;background:#f4f6f8}
+.container{max-width:640px;margin:48px auto;padding:24px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(20,30,50,0.06)}
+h1{margin:0 0 12px 0;font-size:24px;color:#111}
+.input-row{display:flex;gap:8px;margin-bottom:16px}
+#todo-input{flex:1;padding:10px 12px;border:1px solid #d9e1e8;border-radius:6px;font-size:16px}
+#add-btn{padding:10px 16px;border:none;background:#2563eb;color:#fff;border-radius:6px;cursor:pointer}
+#add-btn:hover{background:#1e4ed8}
+#todo-list{list-style:none;padding:0;margin:0}
+.todo-item{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid #eef2f7;border-radius:6px;margin-bottom:8px}
+.todo-item .content{flex:1;display:flex;align-items:center}
+.todo-item .content span{flex:1}
+.complete-checkbox{margin-right:12px;width:18px;height:18px}
+.todo-item.completed .content span{text-decoration:line-through;color:#6b7280;opacity:0.9}
+.delete-btn{background:#ef4444;border:none;color:#fff;padding:6px 10px;border-radius:6px;cursor:pointer}
+.delete-btn:hover{background:#dc2626}
